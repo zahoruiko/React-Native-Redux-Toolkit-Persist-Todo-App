@@ -6,7 +6,7 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 ```npm install```
 
-### For iOS:
+### Install for iOS:
 
 ```cd ios
 pod install
