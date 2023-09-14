@@ -11,9 +11,10 @@ const inputContainerStyle = {
 
 const inputStyle = {
   height: 30,
-  backgroundColor: '#ffffff',
   paddingLeft: 10,
   paddingRight: 10,
+  paddingTop: 0,
+  paddingBottom: 0,
 }
 
 const lightStyleSheet = StyleSheet.create({
