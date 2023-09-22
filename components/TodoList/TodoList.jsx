@@ -1,5 +1,7 @@
 import React from 'react';
+
 import { View } from 'react-native';
+
 import TodoListItem from '../TodoListItem/TodoListItem';
 
 const TodoList = ({ todos, removeTodo, toggleComplete, type }) => {

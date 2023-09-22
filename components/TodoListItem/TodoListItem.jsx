@@ -1,7 +1,12 @@
 import React from 'react';
-import { View, Text } from 'react-native';
-import TodoButton from '../TodoButton/TodoButton';
+
+import {
+  Text,
+  View,
+} from 'react-native';
+
 import { useAppSelector } from '../../redux/reduxHooks';
+import TodoButton from '../TodoButton/TodoButton';
 import { getStyleSheet } from './styles';
 
 const TodoListItem = ({ todo, removeTodo, toggleComplete }) => {

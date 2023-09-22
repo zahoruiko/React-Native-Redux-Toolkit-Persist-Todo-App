@@ -1,7 +1,13 @@
 import React from 'react';
-import { View, Text, TouchableHighlight } from 'react-native';
-import { getStyleSheet } from './styles';
+
+import {
+  Text,
+  TouchableHighlight,
+  View,
+} from 'react-native';
+
 import { useAppSelector } from '../../redux/reduxHooks';
+import { getStyleSheet } from './styles';
 
 const Button = ({ handler, title }) => {
   const appThemeSelector = useAppSelector(state => state.theme);

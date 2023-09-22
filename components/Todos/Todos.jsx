@@ -1,18 +1,26 @@
 import React, { useState } from 'react';
-import { View, ScrollView } from 'react-native';
-import Heading from '../Heading/Heading';
-import Input from '../Input/Input';
-import Button from '../Button/Button';
-import TodoList from '../TodoList/TodoList';
-import TabBar from '../TabBar/TabBar';
+
+import {
+  ScrollView,
+  View,
+} from 'react-native';
 import uuid from 'react-native-uuid';
-import { useAppDispatch, useAppSelector } from '../../redux/reduxHooks';
+
+import {
+  useAppDispatch,
+  useAppSelector,
+} from '../../redux/reduxHooks';
+import { setTheme } from '../../redux/slices/themeSlice';
 import {
   addTodo,
-  toggleTodoStatus,
   removeTodo,
+  toggleTodoStatus,
 } from '../../redux/slices/todosSlice';
-import { setTheme } from '../../redux/slices/themeSlice';
+import Button from '../Button/Button';
+import Heading from '../Heading/Heading';
+import Input from '../Input/Input';
+import TabBar from '../TabBar/TabBar';
+import TodoList from '../TodoList/TodoList';
 import { getStyleSheet } from './styles';
 
 const Todos = () => {

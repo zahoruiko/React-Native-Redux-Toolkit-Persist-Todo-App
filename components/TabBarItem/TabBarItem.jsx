@@ -1,7 +1,12 @@
 import React from 'react';
-import { Text, TouchableHighlight } from 'react-native';
-import { getStyleSheet } from './styles';
+
+import {
+  Text,
+  TouchableHighlight,
+} from 'react-native';
+
 import { useAppSelector } from '../../redux/reduxHooks';
+import { getStyleSheet } from './styles';
 
 const TabBarItem = ({ border, title, selected, setType, type }) => {
   const appThemeSelector = useAppSelector(state => state.theme);

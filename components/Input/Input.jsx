@@ -1,7 +1,12 @@
 import React from 'react';
-import { View, TextInput } from 'react-native';
-import { getStyleSheet } from './styles';
+
+import {
+  TextInput,
+  View,
+} from 'react-native';
+
 import { useAppSelector } from '../../redux/reduxHooks';
+import { getStyleSheet } from './styles';
 
 const Input = ({ inputValue, inputChangeHandler }) => {
   const appThemeSelector = useAppSelector(state => state.theme);
