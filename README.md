@@ -24,3 +24,11 @@ npm start
 # OR using Yarn
 yarn start
 ```
+
+## Results
+
+<img src="https://github.com/zahoruiko/React-Native-Redux-Toolkit-Persist-Todo-App/blob/main/readmeImages/TodoApp.png" width="240">
+
+### Dark theme
+
+<img src="https://github.com/zahoruiko/React-Native-Redux-Toolkit-Persist-Todo-App/blob/main/readmeImages/TodoApp (dark).png" width="240">
