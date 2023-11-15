@@ -1,6 +1,6 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# An example of a React Native application using Redux, Redux toolkit and Redux Persist
+# Example of a React Native application using Redux, Redux toolkit and Redux Persist
 
 # Getting Started
 
